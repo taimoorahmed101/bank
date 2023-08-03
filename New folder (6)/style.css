@@ -1,0 +1,51 @@
+#passError,#emailError{
+    color: red;
+}
+
+
+.b{
+    background-image: url(aa.jpg);
+}
+.form-label{
+    font-weight: 400;
+    font-size: large;
+    font: bold;
+   color: #95a5a6;
+}
+
+
+#log{
+    width: 60px;
+    display: center;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   
+}
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    margin: 50px auto;
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    text-align: center;
+  }
+  
+  .balance {
+    margin-bottom: 20px;
+  }
+  
+  .actions {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  button {
+    margin-top: 10px;
+  }
+ 
+
+ 
