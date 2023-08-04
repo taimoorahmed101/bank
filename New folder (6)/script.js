@@ -37,7 +37,7 @@ let logOut = () => {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-    // Check if the balance exists in local storage, if not, initialize it to 0.
+   
     let balance = localStorage.getItem("balance");
     if (balance === null) {
       localStorage.setItem("balance", "0");
@@ -45,8 +45,7 @@ document.addEventListener("DOMContentLoaded", () => {
     } else {
       balance = parseFloat(balance);
     }
-  
-    // Display the balance on the page.
+
     const balanceElement = document.getElementById("balance");
     balanceElement.textContent = balance.toFixed(2);
   });
